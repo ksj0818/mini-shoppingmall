@@ -1,1 +1,100 @@
 @import url("./reset.css");
+
+body {
+  background-color: dimgray;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.shopping__logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.shopping__imgs > img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.shopping__btns > button {
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 5px;
+  cursor: pointer;
+  width: 42px;
+  height: 30px;
+  font-size: 11px;
+}
+
+.shopping__btn:first-child {
+  background-color: dodgerblue;
+}
+.shopping__btn:nth-child(2) {
+  background-color: gold;
+}
+.shopping__btn:nth-child(3) {
+  background-color: palevioletred;
+}
+
+.shopping__logo,
+.shopping__btn,
+.shopping__imgs > img {
+  transition: transform 300ms ease;
+}
+
+.shopping__logo:hover,
+.shopping__btn:hover,
+.shopping__imgs > img:hover {
+  transform: scale(1.2);
+}
+
+.shopping__items {
+  width: 300px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping__list {
+  width: 270px;
+  flex-direction: column;
+  margin-top: 10px;
+  height: 100%;
+}
+
+.shopping__list > li {
+  margin-top: 5px;
+}
+
+.shopping__choose {
+  background-color: white;
+  border-radius: 4px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+.shopping__choose > img {
+  width: 22px;
+  height: 22px;
+}
+
+.shopping__choose > span {
+  margin-left: 10px;
+  font-size: 14px;
+}
