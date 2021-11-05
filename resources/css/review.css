@@ -1,3 +1,4 @@
+@import url("./reset.css");
 :root {
   /* color */
   --color-black: #3f454d;
@@ -28,7 +29,6 @@ body {
 }
 
 .logo {
-  cursor: pointer;
   transition: transform var(--animation-duration) ease;
 }
 
@@ -42,6 +42,7 @@ body {
 .logo:hover,
 .btn:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .img-btn {
@@ -68,16 +69,17 @@ body {
   background-color: var(--color-pink);
 }
 
-.item-btns {
+.buttons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .items {
-  width: 60%;
+  width: 30%;
   height: 60%;
   list-style: none;
+  outline: none;
   padding-left: 0;
   overflow-y: scroll;
 }
