@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "type": "tshirt",
+      "gender": "female",
+      "size": "small",
+      "image": "/resources/img/blue_t.png",
+      "color": "blue"
+    },
+    {
+      "type": "tshirt",
+      "gender": "female",
+      "size": "small",
+      "image": "/resources/img/yellow_t.png",
+      "color": "yellow"
+    },
+    {
+      "type": "tshirt",
+      "gender": "female",
+      "size": "small",
+      "image": "/resources/img/pink_t.png",
+      "color": "pink"
+    },
+    {
+      "type": "tshirt",
+      "gender": "male",
+      "size": "lorge",
+      "image": "/resources/img/blue_t.png",
+      "color": "blue"
+    },
+    {
+      "type": "tshirt",
+      "gender": "male",
+      "size": "lorge",
+      "image": "/resources/img/yellow_t.png",
+      "color": "yellow"
+    },
+    {
+      "type": "tshirt",
+      "gender": "male",
+      "size": "lorge",
+      "image": "/resources/img/pink_t.png",
+      "color": "pink"
+    },
+    {
+      "type": "pants",
+      "gender": "male",
+      "size": "lorge",
+      "image": "/resources/img/blue_p.png",
+      "color": "blue"
+    },
+    {
+      "type": "pants",
+      "gender": "male",
+      "size": "lorge",
+      "image": "/resources/img/yellow_p.png",
+      "color": "yellow"
+    },
+    {
+      "type": "pants",
+      "gender": "male",
+      "size": "lorge",
+      "image": "/resources/img/pink_p.png",
+      "color": "pink"
+    },
+    {
+      "type": "pants",
+      "gender": "female",
+      "size": "small",
+      "image": "/resources/img/blue_p.png",
+      "color": "blue"
+    },
+    {
+      "type": "pants",
+      "gender": "female",
+      "size": "small",
+      "image": "/resources/img/yellow_p.png",
+      "color": "yellow"
+    },
+    {
+      "type": "pants",
+      "gender": "female",
+      "size": "small",
+      "image": "/resources/img/pink_p.png",
+      "color": "pink"
+    },
+    {
+      "type": "skirt",
+      "gender": "female",
+      "size": "small",
+      "image": "/resources/img/blue_s.png",
+      "color": "blue"
+    },
+    {
+      "type": "skirt",
+      "gender": "female",
+      "size": "small",
+      "image": "/resources/img/yellow_s.png",
+      "color": "yellow"
+    },
+    {
+      "type": "skirt",
+      "gender": "female",
+      "size": "small",
+      "image": "/resources/img/pink_s.png",
+      "color": "pink"
+    }
+  ]
+}
